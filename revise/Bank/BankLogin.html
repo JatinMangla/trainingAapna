@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <script src="BankLogin.js"></script>
+    <style>
+    h1{
+        text-align: center;
+    }
+     form{
+        border: 2px solid blue;
+        margin: auto;
+        width: 35%; 
+        padding: 40px;
+        background-color: #96CEB4;
+    }
+
+    div{
+
+    width: 78%; height: 416px; margin:35px auto; font-family: system-Ui; text-align: center;
+
+    }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Aapna Bank LogIn</h1>
+        <form >
+            <label for="email">E-mail</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email "><br>
+            <label for="pwd">Password</label><br>
+            <input type="password" id="pwd" name="pwd" minlength="8" placeholder="Enter Your Password"><br><br>
+            <input type="button" value="LogIn" onclick="validation()"><br><br>
+            <a href="Banking.html">Click here to Register</a>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<html>
+<head>
+<title> first </title>
+
+<script src="data.js">
+
+</script>
+<link rel="stylesheet" href="look.css">
+</head>
+<body>
+<form id="fm1">
+<div>
+<h2> Student Registeration Form </h2>
+Name <input type="text" id="id1">
+<br>
+address <input type="text" id="id2">
+<br>
+phn <input type="text" id="id3">
+<br>
+Email <input type="text" id="id4">
+<br>
+<p> Education Table</p>
+<div>  <Table id="tb1">
+        <tr>
+            <th>class</th>
+            <th>marks</th>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>75%</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>80%</td>
+        </tr>
+    </Table>
+</div>
+    <br>
+    Nationality
+    <select id="nation">
+        <option value="Indian">Indian</option>
+        <option value="Pakistan">Pakistan</option>
+        <option value="china">China</option>
+        <option value="Sri lanka" >Sri lanka</option>
+        </select>
+    <br>
+    <br>
+    Course
+    <input type="checkbox" id="cb1" value="MBA" >
+    <label for="cb1">MBA</label>
+    <input type="checkbox" id="cb2" value="MCA">
+    <label for="cb2">MCA</label>
+    <input type="checkbox" id="cb3" value="Btec">
+    <label for="cb3">Btec</label>
+    <br>
+    <br>
+    Gender 
+    <input type="radio" id="rb1" name="gender" value="male">
+    <label for="rb1">Male</label>
+    <input type="radio" id="rb2" name="gender" value="female">
+    <label for="rb2">Female</label>
+    <input type="radio" id="rb3" name="gender" value="other">
+    <label for="rb3">Other</label>
+    <br> <br>
+    State
+    <select id="myList" >
+            <option value="Delhi">Delhi</option>
+            <option value="UP">UP</option>
+    
+    </select>
+    
+<p id="p1"></p>
+<p id="p2"></p>
+<p id="p3"></p>
+<p id="p4"></p>
+<p id="p5"></p>
+<input type="button" onclick="All();" value="submit">
+
+
+
+</div><br>
+
+</form>
+<form>
+<div>
+
+    Terms and Condition
+    <ul type="circle">
+        <li>Fill all entry</li>
+        <li>Provide accurate data</li>
+        <li>Provide origional docs </li>
+    </ul>
+</div>
+</form>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> switch</title>
+        <script>
+            function time()
+            {
+                var doo = document.getElementById("tx").value;
+                switch(doo)
+                {
+                    case '8AM': document.write("good morning");
+                    break;
+                    case '9AM':document.write("have breakfast");
+                    break;
+                    case '12PM':document.write("snack time");
+                    break;
+                    case '2PM':document.write("have lunch");
+                    break;
+                    case '5PM':document.write("snack time");
+                    break;
+                    case '8PM':document.write("have dinner");
+                    break;
+                    case "11PM":document.write("good night");
+                    break;
+                    default : document.getElementById("tx").value="hey";
+                    break;
+                    
+                }
+            }
+            
+            var b= (a,b)=>{
+                c=a+b;
+                document.getElementById("tx").value=c;
+            }
+
+            function Add()
+            {
+                const arr=[10,20,30,55,67,71]
+                document.write(arr.filter(n => n%2===0).map(m => (m*2)).reduce((a,b) => a+b));
+            }
+            
+            function Exx()
+            {
+            const data =new Map();
+            data.set(name, 'jatin');
+            data.set(addres, 'delhi');
+            data.set(fun)
+        
+            console.log(data);
+            }
+            
+        </script>
+    </head>
+    <body>
+        enter time
+        <input type="text" id="tx" placeholder="enter">
+        <input type="button" id="bt" onclick="Exx()" value="press">
+    </body>
+</html>

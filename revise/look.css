@@ -1,0 +1,16 @@
+table,th,td{border: 2px solid blue; text-align: center; margin: auto;}
+ #fm1{ 
+    background-color: cornflowerblue;
+text-align:center;
+margin: auto;
+border:2px solid black;
+width: 40%;
+padding: 10px;
+}
+form{ 
+    background-color: cornflowerblue;
+margin: auto;
+border:2px solid black;
+width: 40%;
+padding: 10px;
+}
